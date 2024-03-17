@@ -1,0 +1,54 @@
+.places h1{
+    font-size: 30px;
+}
+.places {
+    display: inline-flex;
+    flex-direction: column;
+}
+.places h1 {
+    padding-left: 20px;
+    margin-bottom: -2px;
+
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.M {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+}
+.M h2 {
+    text-align: center;
+}
+.T {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+}
+.T h2 {
+    text-align: center;
+}
+
+.places.M, .places.T {
+    width: 50%;
+}
+.A {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.A h2 {
+    text-align: center;
+}
