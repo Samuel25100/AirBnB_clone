@@ -1,0 +1,311 @@
+.places h1{
+    font-size: 30px;
+}
+.places {
+    display: inline-flex;
+    flex-direction: column;
+}
+.places h1 {
+    padding-left: 20px;
+    margin-bottom: -2px;
+
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.M {
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+h2 {
+    font-size: 20px;
+    width: 200px;  
+}
+.T {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.T h2 {
+    width: 50%;
+}
+
+.places.M, .places.T {
+    width: 50%;
+}
+.A {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.A h2 {
+    width: 50%;
+}
+.M>.price_by_night {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -8px;
+    right: -40%;
+    width: 60px;
+    height: 60px;
+    border: #FF5A5F solid 4px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #FF5A5F;
+}
+.T>.price_by_night {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -8px;
+    right: -40%;
+    width: 60px;
+    height: 60px;
+    border: #FF5A5F solid 4px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #FF5A5F;
+}
+.A>.price_by_night {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -8px;
+    right: -19%;
+    width: 60px;
+    height: 60px;
+    border: #FF5A5F solid 4px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #FF5A5F;
+}
+/*The first section of the box*/
+.information {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    border-top: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.max_guest {
+    width: 100px;
+    display: grid;
+    height: inherit;
+    align-items: center;
+    margin: 0%;
+}
+.number_rooms {
+    width: 100px;
+    display: grid;
+    height: inherit;
+    align-items: center;
+    margin: 0%;
+    margin-right: 10px;
+
+}
+.number_bathrooms {
+    width: 100px;
+    display: grid;
+    height: inherit;
+    align-items: center;
+    margin: 0%;
+    margin-left: 8px;
+}
+.max_guest h2 {
+    width: 100px;
+    margin: 0%;
+    height: max-content;
+}
+.number_rooms h2 {
+    width: 110px;
+    margin: 0%;
+    height: max-content;
+}
+.number_bathrooms h2 {
+    width: 120px;
+    margin: 0%;
+    height: max-content;
+}
+.guest_icon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: inherit;
+    background: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    float: left;
+      
+}
+.bedroom_icon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    background: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+}
+.bathroom_icon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    background: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+}
+.M_lower {
+    display: grid;
+    align-items: center;
+    height: 100px;
+    width: 390px;
+}
+.M .description {
+    height: 100px;
+    width: 390px;
+    position: relative;
+    top: -10px;
+
+}
+/*Finishing the product looks*/
+.M .information {
+    position: relative;
+    top: -16px;
+}
+
+.M .user {
+    position: relative;
+    top: -33px;
+}
+
+.M .description {
+    position: relative;
+    top: -50px;
+}
+.T .description {
+    position: relative;
+    top: -26px;
+}
+.A .user {
+    position: relative;
+    top: 10px;
+}
+.A .description {
+    position: relative;
+    top: -5px;
+}
+.A .price_by_night {
+    position: relative;
+    right: -153px;
+}
+/*_____________100-index.html styles___________________________*/
+.description p {
+    margin-bottom: 40px;
+}
+.amenities {
+    display: grid;
+    width: fit-content;
+    
+}
+
+.amenities>h2 {
+    width: 318px;
+    padding-bottom: 5px;
+    border-bottom: #DDDDDD solid 1px;
+}
+
+ul {
+    list-style: none;
+}
+.list {
+    display: inline-block;
+    width: 120px;
+}
+.tv {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: inherit;
+    background: url("../images/icon_tv.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.tv h3 {
+    margin-left: 26px;
+}
+.wifi {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: inherit;
+    background: url("../images/icon_wifi.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.wifi h3 {
+    margin-left: 26px;
+}
+.pet {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 220px;
+    background: url("../images/icon_pets.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.pet h3 {
+    margin-left: 26px;
+    width: 130px;
+}
+
+.reviews>h2 {
+    width: 318px;
+    padding-bottom: 5px;
+    border-bottom: #DDDDDD solid 1px;
+}
+.book {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 220px;
+    background: url("../images/icon_book.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.book h3 {
+    margin-left: 26px;
+    width: 130px;
+}
